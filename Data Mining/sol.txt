@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String args[])
+    {
+        //fill the code;
+      Scanner in = new Scanner (System.in);
+      int a =in.nextInt();
+      int esum=0,osum=0;
+      while(a!=0)
+      {
+        
+        int rem = a%10;
+        if(rem%2==0)
+          esum+=rem;
+        a/=10;
+        if(a%2==1)
+         osum+=a;
+          }
+      if(esum == osum)
+      {
+        System.out.println("yes");
+      }
+      else
+        System.out.println("No");
+}
+}
