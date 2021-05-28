@@ -4,14 +4,7 @@ class Main
     public static void main(String args[])
     {
         //fill the code;
-      Scanner in = new Scanner(System.in);
-      int a =in.nextInt();
-      int b = in.nextInt();
-      while(a>=b)
-      {
-      System.out.println(a);
-        a--;
-      }
-      
+      System.out.println("Hello world this is jenkins);
+      System.out.println("Running the build stage in jankins");
     }
 }
